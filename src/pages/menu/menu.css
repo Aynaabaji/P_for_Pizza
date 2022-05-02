@@ -1,0 +1,53 @@
+.menu__container {
+  padding-bottom: 5rem;
+}
+
+.menu__header {
+  text-align: center;
+  font-size: 2rem;
+  padding: 4rem 0;
+}
+
+.menu__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8rem;
+}
+
+.menu__card {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  overflow: hidden;
+  padding-bottom: 3rem;
+  box-shadow: 0rem 0rem 2rem rgb(32, 32, 32);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.menu__card:hover{
+    transform: translateY(-2rem);
+    -webkit-transform: translateY(-2rem);
+    -moz-transform: translateY(-2rem);
+    -ms-transform: translateY(-2rem);
+    -o-transform: translateY(-2rem);
+    cursor: pointer;
+}
+
+.menu__card > img {
+  width: 100%;
+  aspect-ratio: 3/2;
+}
+
+.menu__card > h1 {
+  padding: 1.5rem;
+}
+
+.menu__card > small {
+  padding: 1.5rem;
+}

@@ -1,0 +1,31 @@
+footer{
+    background: var(--footer-background);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer_container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.footerIcon{
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+
+  .footer__credit{
+      color: rgba(255, 255, 255, 0.3);
+      padding: 0.5rem 0;
+  }
+
+  .footerIcon:hover{
+      color: #fff;
+      transition: var(--transition);
+      -webkit-transition: var(--transition);
+      -moz-transition: var(--transition);
+      -ms-transition: var(--transition);
+      -o-transition: var(--transition);
+}

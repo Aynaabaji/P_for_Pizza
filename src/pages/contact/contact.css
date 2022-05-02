@@ -1,0 +1,64 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.pic {
+  background: url("../../assets/contact.jpg") center no-repeat;
+  background-size: cover;
+  padding: 13rem 0;
+}
+
+.form {
+  padding: 6rem 0;
+}
+
+.form > h1 {
+  padding-bottom: 3rem;
+}
+
+.formon {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: left;
+}
+
+.formon > input,
+textarea {
+  font-weight: 300;
+  width: 90%;
+  border: none;
+  border-bottom: 1px dotted #000;
+  margin-bottom: 2rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.formon > button {
+  display: inline-block;
+  width: max-content;
+  background-color: #000;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.formon > button:hover {
+  background: transparent;
+  color: #000;
+  border: 2px solid #000;
+}

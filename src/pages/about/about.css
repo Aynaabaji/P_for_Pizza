@@ -1,0 +1,22 @@
+.paboutBan {
+  background: url("../../assets/aboutban.jpeg") center no-repeat;
+  background-size: cover;
+  padding: 11rem 0;
+}
+
+.about__content {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 8rem;
+  padding: 4rem 0;
+}
+
+.about__right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.about__right h1{
+    font-size: 4rem;
+}
